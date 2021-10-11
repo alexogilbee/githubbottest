@@ -21,5 +21,5 @@ jobs:
       with:
         # Discord webhook endpoint. If not set, env.DISCORD_WEBHOOK will be used.
         webhook: https://discordapp.com/api/webhooks/896951532979896330/m3Tt-_7Dp4QCoRQ2wfRxodudldzBql9Uty-EeQ0D2AomXf3RcDhomuvMFHQfRrHT95HB
-        color: FFFFFF
+        color: 0xFFFFFF
         noprefix: true
