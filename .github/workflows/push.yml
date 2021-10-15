@@ -25,4 +25,6 @@ jobs:
         description: 'desc'
         color: 0x00FF00
         username: 'user'
+        nocontext: true
         noprefix: true
+        nodetail: false
