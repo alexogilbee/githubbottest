@@ -20,11 +20,9 @@ jobs:
       uses: sarisia/actions-status-discord@v1.8.6
       with:
         # Discord webhook endpoint. If not set, env.DISCORD_WEBHOOK will be used.
-        webhook: https://discordapp.com/api/webhooks/896951532979896330/m3Tt-_7Dp4QCoRQ2wfRxodudldzBql9Uty-EeQ0D2AomXf3RcDhomuvMFHQfRrHT95HB
-        title: '${{ github.actor }} triggered a ${{ github.event_name }} to the repo!'
+        webhook: ${{ secrets.DISCORD_WEBHOOK }}
+        title: 'Push made to ${{ github.event.repository.name }} by ${{ github.actor }}'
         description: '${{ github.event.head_commit.message }}'
         color: 0x00FF00
-        username: 'user'
-        nocontext: false
-        noprefix: false
+        username: 'GitHub'
         nodetail: true
