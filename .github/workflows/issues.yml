@@ -24,7 +24,7 @@ jobs:
         # Discord webhook endpoint. If not set, env.DISCORD_WEBHOOK will be used.
         webhook: ${{ secrets.DISCORD_WEBHOOK }}
         title: 'Issue opened: #${{ github.event.issue.number }} ${{ github.event.issue.title }}'
-        description: '${{ github.event.issue.body }}'
+        description: '${{ github.event.issue.body }} -${{ github.event.sender.login }}'
         color: 0xFF0000
         username: 'GitHub'
         nodetail: true
