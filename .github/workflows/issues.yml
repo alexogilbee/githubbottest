@@ -1,11 +1,11 @@
 # This is a basic workflow to help you get started with Actions
 
-name: Discord Notifications
+name: Issue Opened
 
 # Controls when the workflow will run
 on: 
   issues:
-    types: opened
+    types: [opened, reopened]
 
 # A workflow run is made up of one or more jobs that can run sequentially or in parallel
 jobs:
