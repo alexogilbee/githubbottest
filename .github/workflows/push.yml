@@ -21,5 +21,8 @@ jobs:
       with:
         # Discord webhook endpoint. If not set, env.DISCORD_WEBHOOK will be used.
         webhook: https://discordapp.com/api/webhooks/896951532979896330/m3Tt-_7Dp4QCoRQ2wfRxodudldzBql9Uty-EeQ0D2AomXf3RcDhomuvMFHQfRrHT95HB
+        title: 'title'
+        description: 'desc'
         color: 0x00FF00
+        username: 'user'
         noprefix: true
